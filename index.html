@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envelope</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Only For Nony.</strong>
+                        <p dir="rtl" style="text-align: start;">
+                            بصي انا عارف ان هتفتحي دا لوحدك عاوز اقولك علي حاجه مهمه  انا بجد بحبك و شريكي بعيوبك قبل مميزتك
+                        </p>
+                        <p dir="rtl" style="text-align: start;">
+                            عاوز اكمل معاكي لاني شايفك احلي بنوته في الدنيا بجد يعني نوني بتاعتي بمعني اصح ممكن انتي الفتره الفتت مكنتيش معايا اوييي بس وجودك فارق معايا في حياتي مخليني عاوز اشتغل و عاوز اكبر علشان تفتخري بيا...عمتا انا حضرت المفاجأة دي اما طلبت البوسه انهارده زي ما ادتيني بوسه اديكي انا كمان حاجه تبسطك و تفرحك بجد ربنا يخليكي ليا و اقدر اسعدك يا احلي نوني في الدنيا♥
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
