@@ -28,7 +28,7 @@ body{
 }
 .envelope-wrapper > .envelope {
   position: relative;
-  width: 470px;
+  width: 350px;
   height: 229px;
 }
 .envelope-wrapper > .envelope::before {
@@ -41,13 +41,13 @@ body{
   border-left: 150px solid transparent;
   transform-origin: top;
   transition: all 0.5s ease-in-out 0.7s;
-  width: 170px;
+  width: 50px;
 }
 .envelope-wrapper > .envelope::after {
   content: "";
   position: absolute;
   z-index: 2;
-  width: 170px;
+  width: 50px;
   height: 0px;
   border-top: 130px solid transparent;
   border-right: 150px solid var(--envelope-cover);
@@ -106,7 +106,7 @@ body{
   z-index: 0;
 }
 .flap > .envelope > .letter {
-  bottom: 145px;
+  bottom: 185px;
   transform: scale(1.5);
   transition-delay: 1s;
 }
